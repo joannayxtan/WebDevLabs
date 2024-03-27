@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Joanna Tan">
+  <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+  <meta name="description" content="Joanna Tan's professional website">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="../static/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Joanna Tan</title>
+</head>
+<body onload="addYear()">
+  <header>
+    <h1 id="webname">Joanna Tan</h1>
+    <nav id="myTopnav" class="topnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact me</a>
+      <a href="fun.html">For fun</a>
+      <a href="javascript:void(0);" class="icon">
+        <i class="fa fa-bars" onclick="activeNav()"></i>
+      </a>
+    </nav>
+  </header>
+  <div class="main">
+    <h2 id="greeting"></h2>
+    <img src="../static/photo_of_me.jpg" alt="Joanna Tan profile image" class="classA">
+    <div class="classA">
+      <span id="shortIntro"> I am an undergraduate student at Carnegie Mellon University</span>
+
+      <span id="readMore"> read more ...</span>
+
+      <span id="longIntro"> pursuing a
+        double major in Information Systems and Statistics &amp Machine Learning.</span>
+
+      <span id="readLess"> read less</span>
+    </div>
+  </div>
+  <footer>
+    <p id="copyYear">Joanna Tan &copy</p>
+  </footer>
+</body>
+</html>

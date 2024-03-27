@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Joanna Tan">
+  <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+  <meta name="description" content="Joanna Tan's professional website">
+  <link rel="stylesheet" href="../static/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="../static/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Joanna Tan</title>
+</head>
+<body onload="addYear()">
+  <header>
+    <h1 id="webname">Joanna Tan</h1>
+    <nav id="myTopnav" class="topnav">
+      <a href="index.html">Home</a>
+      <a href="CV.html" class="active">CV</a>
+      <a href="contact.html">Contact me</a>
+      <a href="fun.html">For fun</a>
+      <a href="javascript:void(0);" class="icon">
+        <i class="fa fa-bars" onclick="activeNav()"></i>
+      </a>
+    </nav>
+  </header>
+  <div class="main">
+    <h2>Curriculum Vitae</h2>
+    <table>
+      <tr>
+        <th><span>Education</span></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td><strong>Carnegie Mellon University</strong></td>
+        <td>Expected <strong>May 2026</strong></td>
+      </tr>
+      <tr>
+        <td><strong>B.S. in Information Systems and Statistics &amp Machine Learning</strong><br>
+        <ul>
+          <li>Cumulative QPA: 4.0/4.0 (Dean's List, with High Honors)</li>
+          <li>Courses: Intro to Machine Learning (<strong>Python</strong>),
+          Principles of Imperative Computation (<strong>C</strong>),
+          Econ &amp Data Science (<strong>R</strong>), <br>
+          Probability &amp Statistical Inference II (<strong>R</strong>),
+          Foundations of Software Engineering (<strong>JS/TS</strong>)</li>
+        </ul></td></tr>
+
+    </table>
+    <a href="../static/my_resume.pdf" target="_blank">My resume, pdf version</a>
+  </div>
+  <footer>
+    <p id="copyYear">Joanna Tan &copy</p>
+  </footer>
+</body>
+</html>
